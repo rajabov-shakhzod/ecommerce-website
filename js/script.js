@@ -1,11 +1,11 @@
 // SWIPER CATEGORIES
-var swiperCategories = new Swiper(".categories__container", {
+var swiperCategories = new Swiper('.categories__container', {
     spaceBetween: 24,
     loop: true,
 
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
 
     breakpoints: {
@@ -18,7 +18,7 @@ var swiperCategories = new Swiper(".categories__container", {
             spaceBetween: 40,
           },
           1400: {
-            slidesPerView: 6,
+            slidesPerView: 6.690,
             spaceBetween: 24,
           },
         },
@@ -28,13 +28,13 @@ var swiperCategories = new Swiper(".categories__container", {
 
 
 // SWIPER PRODUCT SECTION START
-var swiperProducts = new Swiper(".new__container", {
+var swiperProducts = new Swiper('.new__container', {
   spaceBetween: 24,
   loop: true,
 
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 
   breakpoints: {
@@ -47,7 +47,7 @@ var swiperProducts = new Swiper(".new__container", {
           spaceBetween: 40,
         },
         1400: {
-          slidesPerView: 4,
+          slidesPerView: 6,
           spaceBetween: 24,
         },
       },
