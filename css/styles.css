@@ -911,7 +911,7 @@ button, textarea, input {
     margin-bottom: 1rem;
     display: block;
     transition: all .3s var(--transition);
-}
+} 
 
 .footer__link:hover {
     color: var(--first-color);
@@ -930,3 +930,20 @@ button, textarea, input {
     font-size: var(--small-font-size);
 }
 /*      FOOTER SECTION END    */
+
+
+/*      BREADCRUMB SECTION START         */
+.breadcrumb {
+    background-color: var(--container-color);
+    padding-block: 1.5rem;
+}
+
+.breadcrumb__list {
+    column-gap: .75rem;
+}
+
+.breadcrumb__link {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+}
+/*      BREADCRUMB SECTION END         */
